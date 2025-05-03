@@ -5,10 +5,9 @@ the basics of async
 
 import asyncio
 import random
-from typing import Generator
 
 
-async def wait_random(max_delay: int = 10) -> Generator[None, None, float]:
+async def wait_random(max_delay: int = 10) -> float:
     """
     wait_random: create asynchronous coroutine
     """
